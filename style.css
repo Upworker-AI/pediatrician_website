@@ -1,0 +1,117 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d7dade;
+    margin: 0;
+    color: #17191b;
+}
+
+.container {
+    width: 80%;
+    max-width: 1028px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #86b8ed;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 35px;
+    height: 35px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+
+.doctor {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 50px auto;
+    width: 90%;
+}
+
+.doctor-photo {
+    width: 40%;
+    height: 275px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.doctor-info {
+    flex: 1;
+    min-width: 0;
+}
+
+.doctor-info h1 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    white-space: nowrap;
+}
+
+.doctor-info p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.gallery {
+    margin: 100px auto 35px;
+    width: 95%;
+}
+
+.gallery h2 {
+    text-align: center;
+    font-size: 23px;
+    margin-bottom: 25px;
+}
+
+.gallery-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.gallery-grid img {
+    width: calc((100% - 60px) / 3);
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #30373d;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+footer p {
+    margin: 15px;
+}
+
+.icon {
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+    vertical-align: middle;
+}
+
+.socials a {
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.socials .icon {
+    margin-right: 4px;
+}
